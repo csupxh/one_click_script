@@ -2028,7 +2028,7 @@ function installDebianUbuntuKernel(){
             mkdir -p ${userHomePath}/${linuxKernelToInstallVersionFull}
             cd ${userHomePath}/${linuxKernelToInstallVersionFull}
 
-            if [ "${linuxKernelToInstallVersion}" = "6.6" ]; then
+            if [ "${linuxKernelToInstallVersion}" = "6.7" ]; then
                 bbrplusDownloadUrl="https://github.com/UJX6N/bbrplus-6.x_stable/releases/download/${linuxKernelToInstallVersionFull}"
 
             elif [ "${linuxKernelToInstallVersion}" = "4.14" ]; then
